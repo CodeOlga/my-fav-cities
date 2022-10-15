@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+body{
+  background-image: url(https://img.freepik.com/free-photo/digital-picture-world-from-outer-space_53876-104050.jpg?size=626&ext=jpg&ga=GA1.2.1015358981.1655300334);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #bfc9dc;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  font-family: 'Noto Sans Ethiopic', sans-serif;
+}
+h1{
+  font-size: 30px;
+  color: #576F72;
+}
+h2{
+  font-size: 25px;
+  color: #576F72;
+}
+p{
+  font-size: 20px;
+  color: #576F72;
+  margin:  50px ;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  width: 150px;
+  background-color: #7D9D9C;
+  color:aliceblue;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn_show_more{
+  background-color:#d3d6e0;
+  color: #7D9D9C;
+  border: none;
+  font-style: italic;
 }
